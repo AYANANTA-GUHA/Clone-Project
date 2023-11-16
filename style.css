@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:ital,wght@0,400;0,500;1,400&family=Varela+Round&display=swap');
+body{
+    background-color: black
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   font-family:'ubuntu','sans-serif';
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(2, 12, 2);
+    color: white;
+}
+nav ul li{
+  /* //  align-items: center;// */
+    padding: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+nav li:hover{
+    color: grey;
+}
+.btn{
+    width: 90px;
+    height: 38px;
+    /* background-color:rgb(73,226,73) ; */
+    background-color: white;
+    color:black;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: -15px;
+    /* margin-left: 55%; */
+    padding-left:10px ;
+    padding-right: 10px;
+
+}
+.btn:hover{
+    background-color:grey
+}
+.right{
+    position:absolute;
+            right:34px;
+            top:20px;
+            display:inline-block; 
+            /* display: flex; */
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+
+.container{
+   min-height: 72vh;
+   background-color: lavender;
+   color: white;
+   font-family:'ubuntu','sans-serif'; 
+   display: flex;
+   margin: 23px auto;
+   width: 1000px;
+   border-radius: 12px;
+   padding: 34px;
+ background-image: url('images/bg2.jpeg'); 
+ background-size: cover;
+ /* margin-left: 180px; */
+ justify-content: center;
+   
+}
+ 
+.bottom{
+    position: sticky;
+    height: 200px;
+
+    background-color: #000000;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    
+    margin-top: -59px;
+    margin-bottom: 66px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressBar{
+    width: 80vw;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color:lightcyan;
+    /* width: 80%; */
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    
+
+}
+.songItem:hover{
+    
+    background-color:lightgray;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+
+}
+/* .songlist{
+     margin-left: 200px; 
+    align-items: center;
+    justify-content: center;
+}  */
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songItemcontainer{
+    margin-top: 74px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    height: 90px;
+}
+.songInfo img{
+    
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    font-family: 'varela','sans-serif';
+}
+.preview{
+position: fixed;
+bottom: 0px;
+left: 0;
+right: 0;
+margin-top: 580px;
+
+/* background-color: linear-gradient(to right,#ae2896,#509bf5); */
+background: linear-gradient(to right, #ae2896, #509bf5);
+padding: 15px 40px;
+display:flex ;
+justify-content: space-between;
+}
+.preview h6{
+color: white;
+text-transform: uppercase;
+font-weight: 400;
+font-size:12px ;
+margin-bottom:10px ;
+}
+.preview p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.preview button{
+    background-color: #ffffff;
+    color:#000000;;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+     /* margin-bottom: 200px;  */
+
+    border-radius: 38px;
+    cursor: pointer;
+    margin-left: 500px;
+   
+}
+.btn-big:hover{
+    background-color:lightcyan;
+}
+  @media only screen and  (max-width: 1231px)and (min-width:0px) {
+    body {
+      background-color: lightblue;
+    }
+    .nav{
+         width: 1000vh; 
+      
+        
+    }
+     .preview button{
+        border-radius: 20px;
+        font-size: 8px;
+        
+    }
+    .bottom{
+
+        width: 160vh;
+        height: 13vh;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        margin-left: 95px;
+    }
+    .nav ul{
+        width: 100%;
+    }
+    .right btn{
+        align-items: end;
+        justify-content: space-between;
+
+    }
+    
+        
+
+    
+   
+}
+
+        
+    
+  
+
+   
