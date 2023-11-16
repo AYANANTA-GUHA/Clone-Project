@@ -206,7 +206,7 @@ margin-bottom:10px ;
 }
   @media only screen and  (max-width: 1231px)and (min-width:0px) {
     body {
-      background-color: lightblue;
+      background-color: aliceblue;
     }
     .nav{
          width: 1000vh; 
@@ -226,7 +226,7 @@ margin-bottom:10px ;
     .container{
         justify-content: center;
         align-items: center;
-        margin-left: 95px;
+        margin-left: 250px;
     }
     .nav ul{
         width: 100%;
